@@ -1,8 +1,15 @@
 import React from 'react'
+import Presentation from '../components/Presentation'
+import Statistics from '../components/Statistics'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <section className='home'>
+        <Presentation/>
+        <Statistics/>
+      </section>
+    </>
   )
 }
 

@@ -7,7 +7,7 @@ const Layout = ({children}) => {
 
   return (
     <>
-      <main className='h-full bg-stone-800 mx-72 '>
+      <main className='wrapper'>
         <Header />
           { children }
         <Footer />

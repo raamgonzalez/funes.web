@@ -1,0 +1,59 @@
+.header{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+
+
+        &__brand{
+            background-color: aqua;
+            padding: 1em 4em;
+            border-radius: 0.5em;
+
+            .brand {
+                &__h1 {
+                    font-size: 3em;
+                }
+            }
+        }
+
+        &__nav{
+            
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            gap: 2em;
+
+            .nav {
+                
+
+                &__li {
+
+                    width: 13em;
+                    background-color: aqua;
+                    border-radius: 0.5em;
+                    display: grid;
+                    place-items: center;
+                }
+        
+                .li {
+                
+                    &__h2{
+                        
+                    }
+            
+                    &__img {
+            
+                    }
+            }
+        }
+
+
+    }
+    
+}
+
+  
+
+
+

@@ -1,6 +1,6 @@
 import react from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import './App.css'
+import './styles/styles.scss'
 import GamesContextProvider from './Context/GamesContext'
 import Layout from './layout/Layout'
 import Rutas from './routes/Rutas'
